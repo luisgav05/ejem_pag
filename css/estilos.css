@@ -1,0 +1,91 @@
+
+//*variables*//
+:root{
+--green-color:green;
+}
+html, body{
+padding: 0px;
+margin: 0px;
+font-size: 12px;
+font-family: Helvetica;
+
+}
+
+label{
+padding-bottom: 5px;
+
+}
+nav {
+  display: flex;
+  background-color: green;
+  padding: 10px;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+color: black;
+text-decoration: none;
+}
+
+nav li a:hover{
+color: pink;
+}
+
+img {
+width: 80px;
+height: 80px;
+}
+
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+
+.products{
+  display: flex;
+  background-image: url("../images/Componente.png");
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 10%;
+
+}
+
+.product{
+  padding: 10px;
+}
+
+.product  .content{
+  background-color: white;
+  padding: 15px;
+box-shadow: 0 0 2px black;
+}
+.img_content {
+text-align: center;
+
+}
+.main_button{
+  background-color: red;
+  width: 100%
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color: #c72e2e;
+}
